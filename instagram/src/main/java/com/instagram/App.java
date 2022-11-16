@@ -17,7 +17,6 @@ public class App {
             String url = "jdbc:mysql://localhost:3306/instagram";
             Connection conn = DriverManager.getConnection(url, "root", "12345");
             Statement stmt = conn.createStatement();
-            Scanner sc = new Scanner(System.in);
 
             while (true) {
                 login(stmt);
