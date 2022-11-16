@@ -34,7 +34,7 @@ public class App {
         String nickname = sc.nextLine();
         System.out.print("PW: ");
         String pw = sc.nextLine();
-        System.out.print("PW: ");
+        System.out.print("email: ");
         String email = sc.nextLine();
 
         ResultSet rs = stmt.executeQuery(String.format("select * from users where nickname = \'%s\'", nickname));
